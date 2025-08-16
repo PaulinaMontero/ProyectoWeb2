@@ -1,0 +1,162 @@
+/********************* ESTILOS GENRALES ******************************/
+
+html {
+    font-size: 16px;
+}
+
+body {
+    color: #000;
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.titulajes {
+    color: #003c5e;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    letter-spacing: -0.5px;
+}
+
+
+.tituloSeccion2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 1.1;
+}
+
+
+.btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+
+.card-title {
+    font-weight: 600 !important;
+    letter-spacing: -0.3px;
+}
+
+.fondo1 {
+    background-color: #E1CCBD;
+    box-shadow: 5px 5px 8px #fff;
+}
+
+
+
+/********************* ESTILOS BOTONES ******************************/
+
+.btnentrada {
+    cursor: pointer;
+    background-color: #928372;
+    width: 200px;
+    height: 60px;
+    border: 3px solid #e4e4e4;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.2rem;
+    font-weight: bold;
+    padding: 15px 50px;
+    text-decoration: none;
+    transition: linear 0.5s;
+}
+
+.btnentrada:hover {
+    width: 200px;
+    height: 60px;
+    background-color: #e4e4e4;
+    color: #000;
+    border: 3px solid #0b3e64;
+    text-decoration: none;
+    padding: 15px 50px;
+    font-size: 2.2rem;
+    transition: linear 0.5s;
+}
+
+
+/*TARJETAS*/
+
+.card-title {
+    font-weight: bolder !important;
+}
+
+.card p {
+    font-size: 18px;
+}
+
+
+/*MEDIAS QUERYS*/
+
+@media (max-width:575px) {
+    .card {
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .bannerparallax {
+        height: calc(100vh);
+    }
+}
+
+@media (min-width:576px) {
+    .card {
+        margin: 0 auto;
+        margin-bottom: 50px;
+        width: 16rem !important;
+    }
+    .bannerparallax {
+        height: calc(100vh);
+    }
+}
+
+@media (min-width:768px) {
+    .card {
+        margin: 0 auto;
+        margin-bottom: 50px;
+        width: 18rem !important;
+    }
+    .bannerparallax {
+        height: calc(40vh);
+    }
+}
+
+
+.imghvr-shutter-out-horiz:before,
+.imghvr-shutter-out-horiz:after {
+    background-color: #E57E2F !important;
+}
+
+.imghvr-shutter-out-horiz figcaption {
+    background-color: rgba(229, 126, 47, 0.9) !important;
+}
